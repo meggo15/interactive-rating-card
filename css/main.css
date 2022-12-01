@@ -1,0 +1,45 @@
+html {
+    font-size: 15px;
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1em;
+	background-color: hsl(216, 12%, 8%);
+}
+
+.rating-container {
+	max-width: 375px;
+	background-color: hsl(213, 19%, 18%);
+}
+
+h1 {
+	color:  hsl(0, 0%, 100%);
+}
+
+p {
+	color: hsl(217, 12%, 63%);
+}
+
+.one-button
+.two-button
+.three-button
+.four-button
+.five-button {
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(217, 12%, 63%);
+}
+
+.submit {
+	background-color: hsl(25, 97%, 53%);
+	color: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media all and (min-width: 1440px) {
+    /* Desktop styles here */
+
+    
+}
