@@ -20,19 +20,28 @@ h1 {
 p {
 	color: hsl(217, 12%, 63%);
 }
+ul
+ {
+	display: flex;
+	justify-content: space-between;
+}
 
 .one-button
 .two-button
 .three-button
 .four-button
-.five-button {
-	background-color: hsl(213, 19%, 18%);
-	color: hsl(217, 12%, 63%);
-}
+.five-button
+	{	background-color: hsl(213, 19%, 18%);
+		color: hsl(217, 12%, 63%);
+
+	}
 
 .submit {
 	background-color: hsl(25, 97%, 53%);
 	color: hsl(0, 0%, 100%);
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .attribution { font-size: 11px; text-align: center; }
